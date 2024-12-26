@@ -8,7 +8,7 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #e3f2fd; /* Light blue background for a soothing effect */
     margin: 0;
     padding: 20px; /* Adding padding to the body to prevent sticking at the top */
     display: flex;
@@ -19,7 +19,7 @@ body {
 
 /* Main Container */
 section {
-    background-color: white;
+    background-color: #ffffff; /* White background for the main container */
     padding: 2rem;
     width: 90%;
     max-width: 800px;
@@ -31,8 +31,8 @@ section {
 
 /* Header */
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #0288d1; /* Teal-blue for the header */
+    color: white; /* White text for contrast */
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 1.5rem;
@@ -49,7 +49,7 @@ header p {
 
 /* Section Titles */
 h2 {
-    color: #4CAF50;
+    color: #0288d1; /* Teal-blue for section titles */
     margin-bottom: 1rem;
 }
 
@@ -60,15 +60,16 @@ ul {
 }
 
 ul li {
-    background-color: #e7f7e7;
+    background-color: #e0f7fa; /* Light teal for list items */
     margin-bottom: 0.5rem;
     padding: 0.75rem;
     border-radius: 5px;
+    color: #006064; /* Dark teal text */
 }
 
 /* Links */
 a {
-    color: #4CAF50;
+    color: #0288d1; /* Teal-blue for links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -82,7 +83,7 @@ button {
     background-color: transparent; /* No background color */
     border: none; /* Removes any border */
     cursor: pointer; /* Adds a pointer cursor for better UX */
-    color: inherit; /* Ensures text color matches the surrounding text */
+    color: #0288d1; /* Teal-blue text for buttons */
 }
 
 button i {
@@ -96,20 +97,20 @@ button:hover {
 /* Definition List */
 dl dt {
     font-weight: bold;
-    color: #333;
+    color: #01579b; /* Dark blue for definition terms */
     margin-top: 1rem;
 }
 
 dl dd {
     margin-left: 1.5rem;
-    color: #666;
+    color: #455a64; /* Grayish-blue for definition descriptions */
 }
 
 /* Blockquote */
 blockquote {
     font-style: italic;
-    color: #555;
-    border-left: 4px solid #4CAF50;
+    color: #546e7a; /* Muted blue-gray for the quote */
+    border-left: 4px solid #0288d1; /* Teal-blue border */
     padding-left: 1rem;
     margin-top: 2rem;
 }
