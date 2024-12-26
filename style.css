@@ -8,22 +8,23 @@
 /* Global Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e3f2fd; /* Light blue background for a soothing effect */
+    background-color: #121212; /* Dark gray background for the body */
     margin: 0;
     padding: 20px; /* Adding padding to the body to prevent sticking at the top */
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Aligns content towards the top */
     min-height: 100vh;
+    color: #e0e0e0; /* Light gray text for readability */
 }
 
 /* Main Container */
 section {
-    background-color: #ffffff; /* White background for the main container */
+    background-color: #1e1e1e; /* Slightly lighter gray for the main container */
     padding: 2rem;
     width: 90%;
     max-width: 800px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     text-align: center;
     margin-top: 30px; /* Adding margin to ensure there's space from the top */
@@ -31,8 +32,8 @@ section {
 
 /* Header */
 header {
-    background-color: #0288d1; /* Teal-blue for the header */
-    color: white; /* White text for contrast */
+    background-color: #333333; /* Medium gray for the header */
+    color: #ffffff; /* White text for contrast */
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 1.5rem;
@@ -49,7 +50,7 @@ header p {
 
 /* Section Titles */
 h2 {
-    color: #0288d1; /* Teal-blue for section titles */
+    color: #4caf50; /* Green for section titles to add a pop of color */
     margin-bottom: 1rem;
 }
 
@@ -60,16 +61,16 @@ ul {
 }
 
 ul li {
-    background-color: #e0f7fa; /* Light teal for list items */
+    background-color: #2b2b2b; /* Dark gray for list items */
     margin-bottom: 0.5rem;
     padding: 0.75rem;
     border-radius: 5px;
-    color: #006064; /* Dark teal text */
+    color: #a8a8a8; /* Light gray text for readability */
 }
 
 /* Links */
 a {
-    color: #0288d1; /* Teal-blue for links */
+    color: #4caf50; /* Green for links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -83,7 +84,7 @@ button {
     background-color: transparent; /* No background color */
     border: none; /* Removes any border */
     cursor: pointer; /* Adds a pointer cursor for better UX */
-    color: #0288d1; /* Teal-blue text for buttons */
+    color: #4caf50; /* Green for buttons */
 }
 
 button i {
@@ -97,20 +98,20 @@ button:hover {
 /* Definition List */
 dl dt {
     font-weight: bold;
-    color: #01579b; /* Dark blue for definition terms */
+    color: #ffffff; /* White for definition terms */
     margin-top: 1rem;
 }
 
 dl dd {
     margin-left: 1.5rem;
-    color: #455a64; /* Grayish-blue for definition descriptions */
+    color: #a8a8a8; /* Light gray for definition descriptions */
 }
 
 /* Blockquote */
 blockquote {
     font-style: italic;
-    color: #546e7a; /* Muted blue-gray for the quote */
-    border-left: 4px solid #0288d1; /* Teal-blue border */
+    color: #bdbdbd; /* Muted gray for the quote */
+    border-left: 4px solid #4caf50; /* Green border for emphasis */
     padding-left: 1rem;
     margin-top: 2rem;
 }
