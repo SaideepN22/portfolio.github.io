@@ -77,6 +77,22 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Buttons (GitHub and LinkedIn) */
+button {
+    background-color: transparent; /* No background color */
+    border: none; /* Removes any border */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    color: inherit; /* Ensures text color matches the surrounding text */
+}
+
+button i {
+    margin-right: 0.5rem; /* Adds space between the icon and text */
+}
+
+button:hover {
+    text-decoration: underline; /* Adds an underline on hover */
+}
+
 /* Definition List */
 dl dt {
     font-weight: bold;
